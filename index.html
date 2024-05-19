@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoHartz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-2 p-md-3" id="header-spy">
+        <div class="container">
+            <div class="h1-img">
+                <img class="me-1" src="images/infohartzlogo.png">
+                <h1 class="navbar-brand fs-1 fw-bold m-0"><span id="h1-info">Info</span><span class="text-colored">Hartz</span></h1>
+            </div>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navegation-menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navegation-menu">
+                <ul class="nav nav-pills d-block d-lg-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#about-store">
+                            <i class="bi bi-house-door me-1"></i>
+                            Sobre a loja</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#services">
+                            <i class="bi bi-wrench-adjustable"></i>
+                            Serviços</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#products">
+                            <i class="bi bi-bag-heart-fill me-1"></i>
+                            Produtos</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link" href="#contact">
+                            <i class="bi bi-telephone"></i>
+                            Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div data-bs-spy="scroll" data-bs-target="header-spy" data-bs-smooth-scroll="true">
+        <section id="about-store">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="images/carousel/desktop.jpg" alt="Imagem computador gamer">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/carousel/laptop.jpg" alt="Imagem notebook">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/carousel/peripherals.jpg" alt="Imagem de periféricos gamer">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/carousel/printer.jpg" alt="Imagem de uma impressora">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="images/carousel/frame.jpg" alt="Imagem de um quadro">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="3"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="4"></button>
+                </div>
+            </div>
+            <article class="py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="images/facade.jpg" class="d-block w-100 rounded"> 
+                        </div>
+                        <div class="col-md-7">
+                            <h2 class="text-colored dm-slab fw-bold fs-1 mb-3"><u>Sobre a loja</u></h2>
+                            <p class="fs-5">
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae maxime voluptates quaerat accusantium impedit, saepe eum alias placeat quasi obcaecati, quia possimus nostrum qui. Pariatur nobis eligendi omnis nesciunt nostrum.
+                            </p>
+                            <p class="fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime omnis dignissimos ab iste iusto? Explicabo vitae, nemo ipsum, commodi veritatis tenetur ad corrupti blanditiis, sit ratione libero officiis unde odio?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="services" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center dm-slab fs-1 mb-5"><u>Serviços</u></h2>
+                </div>
+                <div class="row">
+                    <article class="col-md-4 services-articles">
+                        <img src="images/services/sales.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="text-colored fw-bold">
+                            <i class="bi bi-cart-check"></i>
+                            Vendas</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laboriosam, voluptas, perferendis cum laborum deleniti officia odit amet iusto nulla qui fugiat pariatur a consequuntur commodi doloremque error consequatur officiis.
+                        </p>
+                    </article>
+                    <article class="col-md-4 services-articles">
+                        <img src="images/services/repairs.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="text-colored fw-bold">
+                            <i class="bi bi-tools me-1"></i>
+                            Reparos</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laboriosam, voluptas, perferendis cum laborum deleniti officia odit amet iusto nulla qui fugiat pariatur a consequuntur commodi doloremque error consequatur officiis.
+                        </p>
+                    </article>
+                    <article class="col-md-4">
+                        <img src="images/services/print.jpg" class="d-block w-100 rounded mb-2" alt="">
+                        <h3 class="text-colored fw-bold">
+                            <i class="bi bi-printer-fill"></i>
+                            Impressões</h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit laboriosam, voluptas, perferendis cum laborum deleniti officia odit amet iusto nulla qui fugiat pariatur a consequuntur commodi doloremque error consequatur officiis.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section class="py-5" id="products">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-colored text-center fw-bold fs-1 mb-5"><u>Produtos</u></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#desktops" class="fw-bold nav-link active" id="products-nav-link">Computadores desktop</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#monitors" class="fw-bold nav-link" id="products-nav-link">Monitores</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#laptops" class="fw-bold nav-link" id="products-nav-link">Notebooks</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#headphones" class="fw-bold nav-link" id="products-nav-link">Fones de ouvido</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#mouses" class="fw-bold nav-link" id="products-nav-link">Mouses</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#keyboards" class="fw-bold nav-link" id="products-nav-link">Teclados</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="desktops">
+                                <div class="row">
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/desktops/desktop1.png" alt="Computador desktop">
+                                        <h5 class="text-colored">Desktop 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/desktops/desktop2.png" alt="Computador desktop">
+                                        <h5 class="text-colored">Desktop 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/desktops/desktopgamer1.png" alt="Computador desktop gamer">
+                                        <h5 class="text-colored">Desktop Gamer 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/desktops/desktopgamer2.png" alt="Computador desktop gamer">
+                                        <h5 class="text-colored">Desktop Gamer 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="monitors">
+                                <div class="row">
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/displays/monitor1.png" alt="monitor display">
+                                        <h5 class="text-colored">Monitor 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/displays/monitor2.png" alt="monitor display">
+                                        <h5 class="text-colored">Monitor 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/displays/monitorgamer1.png" alt="monitor display gamer">
+                                        <h5 class="text-colored">Monitor Gamer 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/displays/monitorgamer2.png" alt="monitor display gamer">
+                                        <h5 class="text-colored">Monitor Gamer 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="laptops">
+                                <div class="row">
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/laptops/laptop1.png" alt="Notebook">
+                                        <h5 class="text-colored">Notebook 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/laptops/laptop2.png" alt="Notebook">
+                                        <h5 class="text-colored">Notebook 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/laptops/laptopgamer1.png" alt="Notebook gamer">
+                                        <h5 class="text-colored">Notebook Gamer 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/laptops/laptopgamer2.png" alt="Notebook gamer">
+                                        <h5 class="text-colored">Notebook Gamer 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="headphones">
+                                <div class="row">
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/headphones/headphone1.png" alt="Fone de ouvido">
+                                        <h5 class="text-colored">Fone de ouvido 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/headphones/headphone2.png" alt="Fone de ouvido">
+                                        <h5 class="text-colored">Fone de ouvido 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/headphones/headset1.png" alt="Fone de ouvido gamer">
+                                        <h5 class="text-colored">Fone de ouvido Gamer 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/headphones/headset2.png" alt="Fone de ouvido gamer">
+                                        <h5 class="text-colored">Fone de ouvido Gamer 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="mouses">
+                                <div class="row">
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/mouses/mouse1.png" alt="Mouse de computador">
+                                        <h5 class="text-colored">Mouse 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/mouses/mouse2.png" alt="Mouse de computador">
+                                        <h5 class="text-colored">Mouse 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/mouses/mousegamer1.png" alt="Mouse de computador gamer">
+                                        <h5 class="text-colored">Mouse Gamer 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/mouses/mousegamer2.png" alt="Mouse de computador gamer">
+                                        <h5 class="text-colored">Mouse Gamer 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="keyboards">
+                                <div class="row">
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/keyboards/keyboard1.png" alt="Teclado de computador">
+                                        <h5 class="text-colored">Teclado de computador 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/keyboards/keyboard2.png" alt="Teclado de computador">
+                                        <h5 class="text-colored">Teclado de computador 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/keyboards/keybordgamer1.png" alt="Teclado de computador gamer">
+                                        <h5 class="text-colored">Teclado de computador Gamer 1</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                    <article class="col-md-3">
+                                        <img class="d-block w-100 mb-2" src="images/products/keyboards/keyboardgamer2.png" alt="Teclado de computador gamer">
+                                        <h5 class="text-colored">Teclado de computador Gamer 2</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat, adipisci.
+                                        </p>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="py-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="text-center mb-5 fs-1 dm-slab fw-bold"><u>Entre em contato</u></h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form class="p-5">
+                            <h3 class="dm-serif mb-">
+                                <i class="bi bi-chat-right-dots talk-icon me-1"></i>
+                                Fale conosco</h3>
+                            <div>
+                                <label id="labels" class="form-label fw-bold" for="name">Seu nome:</label>
+                                <input class="form-control mb-3 input-color" type="text" id="name" required>
+                            </div>
+                            <div>
+                                <label id="labels" class="form-label fw-bold" for="e-mail">Seu e-mail:</label>
+                                <input class="form-control mb-3 input-color" type="email" id="e-mail" required>
+                            </div>
+                            <div>
+                                <label id="labels" class="form-label fw-bold" for="telephone">Telefone para contato (opcional):</label>
+                                <input class="form-control mb-3 input-color" type="tel" id="telephone">
+                            </div>
+                            <div>
+                                <label id="labels" class="form-label fw-bold" for="message">Sua mensagem:</label>
+                                <textarea class="form-control input-color" id="message"></textarea required>
+                            </div>
+                            <button type="submit" class="btn btn-success fw-bold mt-2">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row mb-3">
+                            <h3 class="dm-serif"><u>
+                                <i class="bi bi-box-arrow-up-right me-1"></i>
+                                Redes sociais</u></h3>
+                            <ul class="social-links">
+                                <li class="fs-4">
+                                    <a class="social-links-a" href="#" title="Contate-nos pelo Whatsapp">
+                                        <i class="bi bi-whatsapp me-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a class="social-links-a" href="#" title="siga-nos no Instagram">
+                                        <i class="bi bi-instagram me-2"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a class="social-links-a" href="#" title="Nos acompanhe pelo Facebook">
+                                        <i class="bi bi-facebook me-1"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a class="social-links-a" href="#" title="Nos acompanhe pelo X">
+                                        <i class="bi bi-twitter-x"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <h3 class="dm-serif"><u>
+                                <i class="bi bi-pin-map-fill me-1"></i>
+                                Endereço</u></h3>
+                            <p>Rua aaaaaaaa n° 123, bairro aaaaaaa - Cidade - Estado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
