@@ -1,0 +1,242 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    padding: 16px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(blue, rgb(255, 0, 0));
+    border-bottom: 1px solid #000;
+    margin-bottom: 16px;
+}
+
+header .container,
+#about-store {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-family: "Jersey 25", sans-serif;
+    font-style: italic;
+    font-size: 45px;
+}
+
+header ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 10px;
+}
+
+header ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+#about-store {
+    padding-bottom: 32px;
+    align-items: flex-start;
+    border-bottom: 1px solid #ccc;
+}
+
+#about-store img {
+    margin-right: 32px;
+}
+
+#about-store h2 {
+    margin-bottom: 16px;
+    font-family: "Jersey 25", sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(4, 24%);
+    column-gap: 1%;
+}
+
+#products h2 {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 32px;
+    font-style: italic;
+    margin-top: 16px;
+    grid-column: 1 / -1;
+    text-decoration: underline;
+    margin-bottom: 16px;
+}
+
+#products p {
+    font-size: 1em;
+    padding: 6px 0px 6px 0px;
+}
+
+#products button {
+    display: flex;
+    padding: 8px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    border-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    justify-content: center;
+    margin-top: 4px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: rgb(0, 255, 0);
+    border: none;
+}
+
+.produtos img {
+    max-width: 100%;
+    height: auto;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 640px) {
+    
+    .container {
+        width: 90%;
+    }
+    
+    header {
+        flex-direction: column;
+    }
+
+    #about-store {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #about-store h2 {
+        text-align: center;
+    }
+
+    #about-store img {
+        margin-bottom: 16px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #products {
+        display: block;
+    }
+
+    #products h2 {
+        text-align: center;
+        margin-bottom: 24px;
+    }
+
+    #products button {
+        display: flex;
+        padding: 8px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: bold;
+        border-color: rgba(0,0,0,0.5);
+        border-radius: 5px;
+        justify-content: center;
+        margin-top: 4px;
+        background-color: #08ee08;
+    }
+
+    header ul li {
+        display: block;
+        margin-bottom: 2px;
+    }
+
+    .produtos {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .produtos > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .produtos .info {
+        text-align: center;
+    }
+    
+    .produtos img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 16px;
+    }
+
+    .produtos button {
+        width: auto;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .container {
+        width: 90%;
+    }
+
+    #about-store {
+        display: block;
+    }
+
+    #about-store img {
+        margin-bottom: 16px;
+    }
+
+    #products {
+        grid-template-columns: repeat(2, 49%);
+    }
+
+    #products h2 {
+        margin-bottom: 24px;
+    }
+
+    #products button {
+        display: flex;
+        padding: 8px;
+        width: 100%;
+        font-size: 14px;
+        font-weight: bold;
+        border-color: rgba(0,0,0,0.5);
+        border-radius: 5px;
+        justify-content: center;
+        margin-top: 4px;
+        background-color: #08ee08;
+        margin-bottom: 32px;
+    }
+
+    .produtos .info {
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .produtos button {
+        width: auto;
+        max-width: 68%;
+    }
+}
