@@ -1,0 +1,13 @@
+function calculaArea(valorBase, valorAltura) {
+
+  var valorArea = valorBase * valorAltura;
+
+  return valorArea;
+
+}
+
+var valorBase = prompt('Digite o valor da base');
+
+var valorAltura = prompt('Digite o valor da altura');
+
+alert('O valor da área é: ' + calculaArea(valorBase, valorAltura));
