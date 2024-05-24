@@ -1,0 +1,1 @@
+function calculaArea(a,r){return a*r}let valorBase=prompt("Digite o valor da base"),valorAltura=prompt("Digite o valor da altura");alert("O valor da área é: "+calculaArea(valorBase,valorAltura));

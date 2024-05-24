@@ -1,0 +1,16 @@
+@use './reset.scss';
+@use './variables.scss';
+
+body {
+    background-color: variables.$color1;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: variables.$color2;
+}
+
+.container h1 {
+    color: variables.$textColor;
+}
